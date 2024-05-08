@@ -1,0 +1,24 @@
+.user_banner{
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.user_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user_list{
+    border-radius: 32px;
+}
+.profile_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 24px;
+    object-fit: cover;
+}
+.custom-placeholder::placeholder {
+    /* Change the color here */
+    color: red; /* Change it to any color you prefer */
+  }

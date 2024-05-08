@@ -1,0 +1,115 @@
+.banner{
+    height: auto;
+    background-image: url(../../assets/images/young-fitness-man-studio.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    height: unset;
+}
+.logo{
+    width: 15%;
+    aspect-ratio: 3 / 2;
+    /* height: 158px; */
+    object-fit: contain;
+    
+}
+.section1{
+
+    width: 80%;
+    height: 100%;
+}
+.section2{
+    display: block;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+}
+
+.icon_box{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   gap:40px;
+   height: unset;
+}
+.bn1{
+    height: unset;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.bn2{
+    display: block;
+}
+.text{
+    display: block;
+}
+.small_btnbox1{
+    height: unset;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.small_btnbox2{
+    height: unset;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:1024px) {
+    .section1{
+        width: 70%;
+    }
+    .section2{
+        width: 30%;
+    }
+}
+@media screen and (max-width:480px) {
+    .section1{
+        width: 100%;
+    }
+    .section2{
+       display: none;
+    }
+    .bn2{
+        display: none;
+    }
+    .text{
+        display: none;
+    }
+    .banner{
+        height: 100vh;
+    }
+    .nav{
+        height: 20vh;
+    }
+    .bn1{
+        height: 40vh;
+        display: flex;
+    }
+    .small_btnbox1{
+        height: 15vh;
+        display: flex;
+    }
+    .small_btnbox2{
+        height: 15vh;
+        display: flex;
+    }
+    .icon_box{
+       height: 10vh;
+    }
+    .logo{
+        width: 100%;
+    }
+}

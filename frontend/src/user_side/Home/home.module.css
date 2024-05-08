@@ -1,0 +1,35 @@
+.profile_holder{
+    height: 70px;
+    width: 70px;
+}
+.profile_image{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100%;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.banner{
+    background-image: url(../..//assets/images/3d-gym-equipment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.main1{
+    background-color: rgba(197, 197, 197, 0.404);
+    border-radius: 32px;
+    display: block;
+}
+.crow{
+    display: flex;
+    justify-content: center;
+}
+.plan_card{
+    height: 250px;
+    width: 200px;
+}
